@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--
+        配置注解开发的组件扫描, 指定注解扫描的包;
+        指定完之后, 这个包当中所有的类都可以使用注解了;
+        然后, 在相应的类的类名上面添加: @Component("name")
+        例如, 在User类添加@Component("user"),
+        相当于在配置文件中写了:
+        <bean id="user" class="com.mycomp.demo1.User"/>
+
+        注解的属性注入:
+        1. 可以不用提供set方法，直接在属性名上添加@value("值")
+        2. 如果提供了set方法，在set方法上添加@value("值");
+        详情请看User.java
+    -->
+    <!-- <context:component-scan base-package="com.mycomp.demo1"/> -->
+
+    <!--
+        XML可以适用任何场景 ，结构清晰，维护方便;
+        注解不是自己提供的类使用不了，开发简单方便;
+
+        XML与注解整合开发:
+	    XML管理Bean;
+    	注解完成属性注入;
+	    使用过程中, 可以不用扫描,扫描是为了类上的注解;
+	    在没有扫描的情况下, 使用属性注解@Resource @Value @Autowired @Qulifier: <context:annotation-config/>
+    -->
+    <context:annotation-config/>
+    <bean id="user" class="com.mycomp.demo1.User"/>
+    <bean id="dog" class="com.mycomp.demo1.Dog"/>
+    <bean id="person" class="com.mycomp.demo1.Person"/>
+
+</beans>
