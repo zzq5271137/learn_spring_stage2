@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fca6a84-3850-4b46-9268-bee564c2b14b" name="Default Changelist" comment="" />
+    <list default="true" id="3fca6a84-3850-4b46-9268-bee564c2b14b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/课件/撩课-SSH整合.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/课件/撩课-Spring-Aop.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/课件/撩课-Spring-jdbc模板.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/课件/撩课-Spring.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/课件/撩课-Spring.xmind" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XfZC7T51j928MFaoiQoECDFAdR" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
@@ -27,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -40,6 +49,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\IDEA_workspace\Learn_Spring_stage2" />
       <recent name="H:\IDEA_workspace\Learn_Spring_stage2\resource" />
       <recent name="H:\IDEA_workspace\Learn_Spring_stage2\web\WEB-INF\lib" />
     </key>
@@ -329,6 +339,9 @@
       <workItem from="1581473272719" duration="65000" />
       <workItem from="1581473392258" duration="3626000" />
       <workItem from="1581477033254" duration="1000" />
+      <workItem from="1581484178927" duration="4000" />
+      <workItem from="1581484198492" duration="11000" />
+      <workItem from="1581484249154" duration="2000" />
     </task>
     <servers />
   </component>
