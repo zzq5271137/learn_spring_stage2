@@ -7,4 +7,5 @@ public class Dog {
 
     @Value("大黄")
     public String dogname;
+
 }
