@@ -24,7 +24,7 @@ import javax.annotation.Resource;
  * 注解开发相关注解:
  * @Value: 设置普通属性值;
  * @Autowired: 设置对象类型的属性值;
- *             直接使用这种方式，是按照类型完全属性注入, 不需要在注解上使用id名称
+ *             直接使用这种方式，是按照类型完成属性注入, 不需要在注解上使用id名称
  *             但是, 我们习惯还是按照名称完成属性注入, 有两种方式:
  *             (1). 必须让@Autowired注解与@Qualifier("id")一起使用;
  *             (2). 单独使用@Resource(name = "id");
