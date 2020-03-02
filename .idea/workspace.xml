@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fca6a84-3850-4b46-9268-bee564c2b14b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/课件/撩课-SSH整合.xmind" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/课件/撩课-Spring-Aop.xmind" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/课件/撩课-Spring-jdbc模板.xmind" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/课件/撩课-Spring.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/课件/撩课-Spring.xmind" beforeDir="false" />
-    </list>
+    <list default="true" id="3fca6a84-3850-4b46-9268-bee564c2b14b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
